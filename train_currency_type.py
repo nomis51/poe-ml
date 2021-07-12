@@ -9,7 +9,7 @@ training_name = "currency_type"
 new_training = True
 epochs = 90
 step_epoch = 100
-expected_accuracy = 1.0
+expected_accuracy = 0.99
 
 fix_crash()
 train_until_threshold(training_name, training_dir, size, test_dir,
