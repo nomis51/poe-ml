@@ -1,1 +1,1 @@
-ancient_orb,cartographer_chisel,chaos_orb,chromatic_orb,exalted_orb,exalted_shard,jeweller_orb,orb_of_alchemy,orb_of_alteration,orb_of_fusing,orb_of_horizon,orb_of_regret,orb_of_scouring,regal_orb,vaal_orb
+ancient_orb,cartographer_chisel,chaos_orb,chromatic_orb,empty,exalted_orb,exalted_shard,jeweller_orb,orb_of_alchemy,orb_of_alteration,orb_of_fusing,orb_of_horizon,orb_of_regret,orb_of_scouring,regal_orb,vaal_orb
