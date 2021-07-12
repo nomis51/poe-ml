@@ -6,9 +6,9 @@ training_dir = "./images/stack_sizes/training/"
 test_dir = training_dir
 training_name = "stack_size"
 new_training = True
-epochs = 3400
+epochs = 1200
 step_epoch = 200
-expected_accuracy = 1.0
+expected_accuracy = 0.99
 
 fix_crash()
 train_until_threshold(training_name, training_dir, size, test_dir,
