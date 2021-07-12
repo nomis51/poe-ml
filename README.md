@@ -1,2 +1,2 @@
-# poe-currency-detector
+# poe-ml
  
