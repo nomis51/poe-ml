@@ -2,7 +2,6 @@ from train import train_until_threshold, fix_crash
 
 size = (46, 46)
 batch_size = 16
-epochs = 100
 training_dir = "./images/stack_sizes/training/"
 test_dir = training_dir
 training_name = "stack_size"

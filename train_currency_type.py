@@ -2,13 +2,12 @@ from train import train_until_threshold, fix_crash
 
 size = (46, 46)
 batch_size = 16
-epochs = 100
 training_dir = "./images/currency_types/training/"
 test_dir = training_dir
 training_name = "currency_type"
 new_training = True
-epochs = 90
-step_epoch = 100
+epochs = 30
+step_epoch = 10
 expected_accuracy = 0.99
 
 fix_crash()
