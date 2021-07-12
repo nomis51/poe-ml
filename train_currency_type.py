@@ -7,7 +7,7 @@ training_dir = "./images/currency_types/training/"
 test_dir = training_dir
 training_name = "currency_type"
 new_training = True
-epochs = 120
+epochs = 90
 step_epoch = 100
 expected_accuracy = 1.0
 
