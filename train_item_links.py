@@ -6,7 +6,7 @@ training_dir = "./images/item_links/training/"
 test_dir = training_dir
 training_name = "item_links"
 new_training = True
-epochs = 100
+epochs = 800
 step_epoch = 100
 expected_accuracy = 0.99
 
