@@ -1,0 +1,2111 @@
+{
+  "result": [
+    {
+      "id": "7f29f35fa1df9de8af48698571d29ff199bc889aa19029eea08459588a5294b7",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-07-11T22:44:49Z",
+        "stash": {
+          "name": "~price 10 chaos",
+          "x": 10,
+          "y": 0
+        },
+        "whisper": "@garsiol \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0445\u043e\u0447\u0443 \u043a\u0443\u043f\u0438\u0442\u044c \u0443 \u0432\u0430\u0441 \u0422\u0430\u0431\u0443\u043b\u0430 \u0440\u0430\u0441\u0430 \u041c\u0430\u0442\u0435\u0440\u0447\u0430\u0442\u0430\u044f \u0431\u0435\u0437\u0440\u0443\u043a\u0430\u0432\u043a\u0430 \u0437\u0430 10 chaos \u0432 \u043b\u0438\u0433\u0435 \u0423\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c (\u0441\u0435\u043a\u0446\u0438\u044f \"~price 10 chaos\"; \u043f\u043e\u0437\u0438\u0446\u0438\u044f: 11 \u0441\u0442\u043e\u043b\u0431\u0435\u0446, 1 \u0440\u044f\u0434)",
+        "account": {
+          "name": "region01rus",
+          "lastCharacterName": "garsiol",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "ru_RU"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 10,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 3,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/TabulaRasa.png?v=c169e1ab88583925693bb3a35cc49b6b&w=2&h=3&scale=1",
+        "league": "Ultimatum",
+        "id": "7f29f35fa1df9de8af48698571d29ff199bc889aa19029eea08459588a5294b7",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          }
+        ],
+        "name": "Tabula Rasa",
+        "typeLine": "Simple Robe",
+        "baseType": "Simple Robe",
+        "identified": true,
+        "ilvl": 80,
+        "corrupted": true,
+        "frameType": 3,
+        "extended": {
+          "mods": {
+            "explicit": [
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": null
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": null
+              }
+            ]
+          },
+          "hashes": {},
+          "text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFVuaXF1ZQ0KVGFidWxhIFJhc2ENClNpbXBsZSBSb2JlDQotLS0tLS0tLQ0KU29ja2V0czogVy1XLVctVy1XLVcgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODANCi0tLS0tLS0tDQpDb3JydXB0ZWQNCg=="
+        }
+      }
+    },
+    {
+      "id": "585edc68d2516b98b82b36d8bdd8655b80a90a9dcb954c3c9c78f9895f8c301e",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-07-12T23:56:16Z",
+        "stash": {
+          "name": "5",
+          "x": 0,
+          "y": 2
+        },
+        "whisper": "@Paug \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0445\u043e\u0447\u0443 \u043a\u0443\u043f\u0438\u0442\u044c \u0443 \u0432\u0430\u0441 \u0422\u0430\u0431\u0443\u043b\u0430 \u0440\u0430\u0441\u0430 \u041c\u0430\u0442\u0435\u0440\u0447\u0430\u0442\u0430\u044f \u0431\u0435\u0437\u0440\u0443\u043a\u0430\u0432\u043a\u0430 \u0437\u0430 14 chaos \u0432 \u043b\u0438\u0433\u0435 \u0423\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c (\u0441\u0435\u043a\u0446\u0438\u044f \"5\"; \u043f\u043e\u0437\u0438\u0446\u0438\u044f: 1 \u0441\u0442\u043e\u043b\u0431\u0435\u0446, 3 \u0440\u044f\u0434)",
+        "account": {
+          "name": "EvSpider",
+          "lastCharacterName": "Paug",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "ru_RU"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 14,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 3,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/TabulaRasa.png?v=c169e1ab88583925693bb3a35cc49b6b&w=2&h=3&scale=1",
+        "league": "Ultimatum",
+        "id": "585edc68d2516b98b82b36d8bdd8655b80a90a9dcb954c3c9c78f9895f8c301e",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          }
+        ],
+        "name": "Tabula Rasa",
+        "typeLine": "Simple Robe",
+        "baseType": "Simple Robe",
+        "identified": true,
+        "ilvl": 70,
+        "note": "~price 14 chaos",
+        "frameType": 3,
+        "extended": {
+          "mods": {
+            "explicit": [
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": null
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": null
+              }
+            ]
+          },
+          "hashes": {},
+          "text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFVuaXF1ZQ0KVGFidWxhIFJhc2ENClNpbXBsZSBSb2JlDQotLS0tLS0tLQ0KU29ja2V0czogVy1XLVctVy1XLVcgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogNzANCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMTQgY2hhb3MNCg=="
+        }
+      }
+    },
+    {
+      "id": "9ab894344559d4f036c4b104acc824fbab8e467118f2e0704b3cb0c455f997fc",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-07-12T23:15:19Z",
+        "stash": {
+          "name": "UNI",
+          "x": 20,
+          "y": 4
+        },
+        "whisper": "@VrajitorulRoz Hi, I would like to buy your Sadist Garb listed for 15 chaos in Ultimatum (stash tab \"UNI\"; position: left 21, top 5)",
+        "account": {
+          "name": "ZeePuppeteer",
+          "lastCharacterName": "VrajitorulRoz",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "en_US"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 15,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 3,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDexInt2C.png?v=a0e589c9975ee5fe5bc4845f9c81a516&w=2&h=3&scale=1",
+        "league": "Ultimatum",
+        "id": "9ab894344559d4f036c4b104acc824fbab8e467118f2e0704b3cb0c455f997fc",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          }
+        ],
+        "name": "",
+        "typeLine": "Sadist Garb",
+        "baseType": "Sadist Garb",
+        "identified": true,
+        "ilvl": 80,
+        "note": "~price 15 chaos",
+        "properties": [
+          {
+            "name": "Evasion Rating",
+            "values": [
+              [
+                "427",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 17
+          },
+          {
+            "name": "Energy Shield",
+            "values": [
+              [
+                "88",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 18
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [
+              [
+                "68",
+                0
+              ]
+            ],
+            "displayMode": 0
+          },
+          {
+            "name": "Dex",
+            "values": [
+              [
+                "103",
+                0
+              ]
+            ],
+            "displayMode": 1
+          },
+          {
+            "name": "Int",
+            "values": [
+              [
+                "109",
+                0
+              ]
+            ],
+            "displayMode": 1
+          }
+        ],
+        "frameType": 0,
+        "extended": {
+          "ev": 512,
+          "ev_aug": true,
+          "es": 106,
+          "es_aug": true,
+          "mods": {},
+          "hashes": {},
+          "text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IE5vcm1hbA0KU2FkaXN0IEdhcmINCi0tLS0tLS0tDQpFdmFzaW9uIFJhdGluZzogNDI3DQpFbmVyZ3kgU2hpZWxkOiA4OA0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2OA0KRGV4OiAxMDMNCkludDogMTA5DQotLS0tLS0tLQ0KU29ja2V0czogQi1HLUctQi1CLUIgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODANCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMTUgY2hhb3MNCg=="
+        }
+      }
+    },
+    {
+      "id": "12518d48cda9727a933c741d372de92386bdf70b6bf3db2e916caddee47cb2b8",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-07-12T13:04:37Z",
+        "stash": {
+          "name": "\uc7a1 \ud15c 1",
+          "x": 10,
+          "y": 4
+        },
+        "whisper": "@nuriyago \uc548\ub155\ud558\uc138\uc694, \uacb0\uc804(\ubcf4\uad00\ud568 \ud0ed \"\uc7a1 \ud15c 1\", \uc704\uce58: \uc67c\ucabd 11, \uc0c1\ub2e8 5)\uc5d0 15 chaos(\uc73c)\ub85c \uc62c\ub824\ub193\uc740 \ud669\ud63c \uc7a5\ub9c9 \uc9c4\ud64d\uc0c9 \uc758\ubcf5(\uc744)\ub97c \uad6c\ub9e4\ud558\uace0 \uc2f6\uc2b5\ub2c8\ub2e4",
+        "account": {
+          "name": "machokim",
+          "lastCharacterName": "nuriyago",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "ko_KR"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 15,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 3,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDexInt1C.png?v=58c31e9c01e3395af3661627cabc0db5&w=2&h=3&scale=1",
+        "league": "Ultimatum",
+        "id": "12518d48cda9727a933c741d372de92386bdf70b6bf3db2e916caddee47cb2b8",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          }
+        ],
+        "name": "Dusk Veil",
+        "typeLine": "Crimson Raiment",
+        "baseType": "Crimson Raiment",
+        "identified": true,
+        "ilvl": 78,
+        "note": "~price 15 chaos",
+        "corrupted": true,
+        "properties": [
+          {
+            "name": "Evasion Rating",
+            "values": [
+              [
+                "364",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 17
+          },
+          {
+            "name": "Energy Shield",
+            "values": [
+              [
+                "91",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 18
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [
+              [
+                "48",
+                0
+              ]
+            ],
+            "displayMode": 0
+          },
+          {
+            "name": "Dex",
+            "values": [
+              [
+                "71",
+                0
+              ]
+            ],
+            "displayMode": 1
+          },
+          {
+            "name": "Int",
+            "values": [
+              [
+                "71",
+                0
+              ]
+            ],
+            "displayMode": 1
+          }
+        ],
+        "explicitMods": [
+          "+29 to Dexterity",
+          "38% increased Evasion and Energy Shield",
+          "+14 to maximum Energy Shield",
+          "+40 to maximum Mana",
+          "+36% to Lightning Resistance",
+          "15% increased Stun and Block Recovery",
+          "Regenerate 0.6% of Energy Shield per second"
+        ],
+        "frameType": 2,
+        "extended": {
+          "ev": 364,
+          "es": 91,
+          "mods": {
+            "explicit": [
+              {
+                "name": "of the Panther",
+                "tier": "S5",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_3261801346",
+                    "min": 28,
+                    "max": 32
+                  }
+                ]
+              },
+              {
+                "name": "of the Maelstrom",
+                "tier": "S3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1671376347",
+                    "min": 36,
+                    "max": 41
+                  }
+                ]
+              },
+              {
+                "name": "Deacon's",
+                "tier": "P3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_4052037485",
+                    "min": 11,
+                    "max": 15
+                  },
+                  {
+                    "hash": "explicit.stat_1050105434",
+                    "min": 16,
+                    "max": 19
+                  }
+                ]
+              },
+              {
+                "name": "Cobalt",
+                "tier": "P11",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1050105434",
+                    "min": 20,
+                    "max": 24
+                  }
+                ]
+              },
+              {
+                "name": "Dragonfly's",
+                "tier": "P2",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1999113824",
+                    "min": 33,
+                    "max": 38
+                  },
+                  {
+                    "hash": "explicit.stat_2511217560",
+                    "min": 14,
+                    "max": 15
+                  }
+                ]
+              },
+              {
+                "name": "of Vibrance",
+                "tier": "S2",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_3594640492",
+                    "min": 0.6,
+                    "max": 0.6
+                  }
+                ]
+              }
+            ]
+          },
+          "hashes": {
+            "explicit": [
+              [
+                "explicit.stat_3261801346",
+                [
+                  0
+                ]
+              ],
+              [
+                "explicit.stat_1999113824",
+                [
+                  4
+                ]
+              ],
+              [
+                "explicit.stat_4052037485",
+                [
+                  2
+                ]
+              ],
+              [
+                "explicit.stat_1050105434",
+                [
+                  2,
+                  3
+                ]
+              ],
+              [
+                "explicit.stat_1671376347",
+                [
+                  1
+                ]
+              ],
+              [
+                "explicit.stat_2511217560",
+                [
+                  4
+                ]
+              ],
+              [
+                "explicit.stat_3594640492",
+                [
+                  5
+                ]
+              ]
+            ]
+          },
+          "text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFJhcmUNCkR1c2sgVmVpbA0KQ3JpbXNvbiBSYWltZW50DQotLS0tLS0tLQ0KRXZhc2lvbiBSYXRpbmc6IDM2NCAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogOTEgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNDgNCkRleDogNzENCkludDogNzENCi0tLS0tLS0tDQpTb2NrZXRzOiBCLUItUi1SLUctUiANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA3OA0KLS0tLS0tLS0NCisyOSB0byBEZXh0ZXJpdHkNCjM4JSBpbmNyZWFzZWQgRXZhc2lvbiBhbmQgRW5lcmd5IFNoaWVsZA0KKzE0IHRvIG1heGltdW0gRW5lcmd5IFNoaWVsZA0KKzQwIHRvIG1heGltdW0gTWFuYQ0KKzM2JSB0byBMaWdodG5pbmcgUmVzaXN0YW5jZQ0KMTUlIGluY3JlYXNlZCBTdHVuIGFuZCBCbG9jayBSZWNvdmVyeQ0KUmVnZW5lcmF0ZSAwLjYlIG9mIEVuZXJneSBTaGllbGQgcGVyIHNlY29uZA0KLS0tLS0tLS0NCkNvcnJ1cHRlZA0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxNSBjaGFvcw0K"
+        }
+      }
+    },
+    {
+      "id": "eb9daeabd62cccaeb9fcabfd19c3b8e0b5dcea7a4eb9e5870466fad11344562a",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-04-30T13:30:34Z",
+        "stash": {
+          "name": "\ud504\ub9ac\ubbf8\uc5c43",
+          "x": 3,
+          "y": 0
+        },
+        "whisper": "@\uc194\ucd94\uc5b4\uc314 \uc548\ub155\ud558\uc138\uc694, \uacb0\uc804(\ubcf4\uad00\ud568 \ud0ed \"\ud504\ub9ac\ubbf8\uc5c43\", \uc704\uce58: \uc67c\ucabd 4, \uc0c1\ub2e8 1)\uc5d0 15 chaos(\uc73c)\ub85c \uc62c\ub824\ub193\uc740 \ubcf5\uc218\uc758 \uc18c\ud658 \ud0dc\uace0\uc758 \uc9c0\ud321\uc774(\uc744)\ub97c \uad6c\ub9e4\ud558\uace0 \uc2f6\uc2b5\ub2c8\ub2e4",
+        "account": {
+          "name": "solidchu",
+          "lastCharacterName": "\uc194\ucd94\uc5b4\uc314",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "ko_KR"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 15,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 4,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff2.png?v=602678580ff3ef97c97b89379faef413&w=2&h=4&scale=1",
+        "league": "Ultimatum",
+        "id": "eb9daeabd62cccaeb9fcabfd19c3b8e0b5dcea7a4eb9e5870466fad11344562a",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          }
+        ],
+        "name": "Vengeance Call",
+        "typeLine": "Primordial Staff",
+        "baseType": "Primordial Staff",
+        "identified": true,
+        "ilvl": 74,
+        "note": "~price 15 chaos",
+        "corrupted": true,
+        "properties": [
+          {
+            "name": "Staff",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Physical Damage",
+            "values": [
+              [
+                "135-332",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 9
+          },
+          {
+            "name": "Critical Strike Chance",
+            "values": [
+              [
+                "7.06%",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 12
+          },
+          {
+            "name": "Attacks per Second",
+            "values": [
+              [
+                "1.32",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 13
+          },
+          {
+            "name": "Weapon Range",
+            "values": [
+              [
+                "13",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 14
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [
+              [
+                "58",
+                0
+              ]
+            ],
+            "displayMode": 0
+          },
+          {
+            "name": "Str",
+            "values": [
+              [
+                "99",
+                0
+              ]
+            ],
+            "displayMode": 1
+          },
+          {
+            "name": "Int",
+            "values": [
+              [
+                "99",
+                0
+              ]
+            ],
+            "displayMode": 1
+          }
+        ],
+        "implicitMods": [
+          "+18% Chance to Block Attack Damage while wielding a Staff"
+        ],
+        "explicitMods": [
+          "47% increased Physical Damage",
+          "Adds 37 to 61 Physical Damage",
+          "5% increased Cold Damage",
+          "Adds 37 to 63 Cold Damage to Spells",
+          "15% increased Attack Speed",
+          "14% increased Critical Strike Chance"
+        ],
+        "frameType": 2,
+        "extended": {
+          "dps": 308.86,
+          "pdps": 308.86,
+          "edps": 0,
+          "mods": {
+            "implicit": [
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "implicit.stat_1001829678",
+                    "min": 18,
+                    "max": 18
+                  }
+                ]
+              }
+            ],
+            "explicit": [
+              {
+                "name": "Glaciated",
+                "tier": "P3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_2469416729",
+                    "min": 31,
+                    "max": 41
+                  },
+                  {
+                    "hash": "explicit.stat_2469416729",
+                    "min": 62,
+                    "max": 73
+                  }
+                ]
+              },
+              {
+                "name": "of Renown",
+                "tier": "S5",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_210067635",
+                    "min": 14,
+                    "max": 16
+                  }
+                ]
+              },
+              {
+                "name": "of Needling",
+                "tier": "S6",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_2375316951",
+                    "min": 10,
+                    "max": 14
+                  }
+                ]
+              },
+              {
+                "name": "of Snow",
+                "tier": "S6",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_3291658075",
+                    "min": 3,
+                    "max": 7
+                  }
+                ]
+              },
+              {
+                "name": "Heavy",
+                "tier": "P8",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1509134228",
+                    "min": 40,
+                    "max": 49
+                  }
+                ]
+              },
+              {
+                "name": "Tempered",
+                "tier": "P2",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1940865751",
+                    "min": 27,
+                    "max": 38
+                  },
+                  {
+                    "hash": "explicit.stat_1940865751",
+                    "min": 58,
+                    "max": 66
+                  }
+                ]
+              }
+            ]
+          },
+          "hashes": {
+            "implicit": [
+              [
+                "implicit.stat_1001829678",
+                [
+                  0
+                ]
+              ]
+            ],
+            "explicit": [
+              [
+                "explicit.stat_1509134228",
+                [
+                  4
+                ]
+              ],
+              [
+                "explicit.stat_1940865751",
+                [
+                  5
+                ]
+              ],
+              [
+                "explicit.stat_3291658075",
+                [
+                  3
+                ]
+              ],
+              [
+                "explicit.stat_2469416729",
+                [
+                  0
+                ]
+              ],
+              [
+                "explicit.stat_210067635",
+                [
+                  1
+                ]
+              ],
+              [
+                "explicit.stat_2375316951",
+                [
+                  2
+                ]
+              ]
+            ]
+          },
+          "text": "SXRlbSBDbGFzczogU3RhdmVzDQpSYXJpdHk6IFJhcmUNClZlbmdlYW5jZSBDYWxsDQpQcmltb3JkaWFsIFN0YWZmDQotLS0tLS0tLQ0KU3RhZmYNClBoeXNpY2FsIERhbWFnZTogMTM1LTMzMiAoYXVnbWVudGVkKQ0KQ3JpdGljYWwgU3RyaWtlIENoYW5jZTogNy4wNiUgKGF1Z21lbnRlZCkNCkF0dGFja3MgcGVyIFNlY29uZDogMS4zMiAoYXVnbWVudGVkKQ0KV2VhcG9uIFJhbmdlOiAxMw0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA1OA0KU3RyOiA5OQ0KSW50OiA5OQ0KLS0tLS0tLS0NClNvY2tldHM6IFItQi1HLUItUi1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDc0DQotLS0tLS0tLQ0KKzE4JSBDaGFuY2UgdG8gQmxvY2sgQXR0YWNrIERhbWFnZSB3aGlsZSB3aWVsZGluZyBhIFN0YWZmIChpbXBsaWNpdCkNCi0tLS0tLS0tDQo0NyUgaW5jcmVhc2VkIFBoeXNpY2FsIERhbWFnZQ0KQWRkcyAzNyB0byA2MSBQaHlzaWNhbCBEYW1hZ2UNCjUlIGluY3JlYXNlZCBDb2xkIERhbWFnZQ0KQWRkcyAzNyB0byA2MyBDb2xkIERhbWFnZSB0byBTcGVsbHMNCjE1JSBpbmNyZWFzZWQgQXR0YWNrIFNwZWVkDQoxNCUgaW5jcmVhc2VkIENyaXRpY2FsIFN0cmlrZSBDaGFuY2UNCi0tLS0tLS0tDQpDb3JydXB0ZWQNCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMTUgY2hhb3MNCg=="
+        }
+      }
+    },
+    {
+      "id": "14f54b336bc7af1689af378017cd97d8c0bd440870358d8483e360fa58ca692b",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-05-24T14:51:57Z",
+        "stash": {
+          "name": "Sell 5c",
+          "x": 0,
+          "y": 8
+        },
+        "whisper": "@lokototem Hi, I would like to buy your Gale Roar Abyssal Axe listed for 15 chaos in Ultimatum (stash tab \"Sell 5c\"; position: left 1, top 9)",
+        "account": {
+          "name": "cruelker",
+          "lastCharacterName": "lokototem",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "en_US"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 15,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 4,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandAxes\/TwoHandAxe7.png?v=b87f7cf114558ea0a1ac416fc6f91983&w=2&h=4&scale=1",
+        "league": "Ultimatum",
+        "id": "14f54b336bc7af1689af378017cd97d8c0bd440870358d8483e360fa58ca692b",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          }
+        ],
+        "name": "Gale Roar",
+        "typeLine": "Abyssal Axe",
+        "baseType": "Abyssal Axe",
+        "identified": true,
+        "ilvl": 82,
+        "note": "~price 15 chaos",
+        "corrupted": true,
+        "properties": [
+          {
+            "name": "Two Handed Axe",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Physical Damage",
+            "values": [
+              [
+                "98-146",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 9
+          },
+          {
+            "name": "Elemental Damage",
+            "values": [
+              [
+                "2-75",
+                6
+              ]
+            ],
+            "displayMode": 0,
+            "type": 10
+          },
+          {
+            "name": "Critical Strike Chance",
+            "values": [
+              [
+                "5.00%",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 12
+          },
+          {
+            "name": "Attacks per Second",
+            "values": [
+              [
+                "1.46",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 13
+          },
+          {
+            "name": "Weapon Range",
+            "values": [
+              [
+                "13",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 14
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [
+              [
+                "55",
+                0
+              ]
+            ],
+            "displayMode": 0
+          },
+          {
+            "name": "Str",
+            "values": [
+              [
+                "128",
+                0
+              ]
+            ],
+            "displayMode": 1
+          },
+          {
+            "name": "Dex",
+            "values": [
+              [
+                "60",
+                0
+              ]
+            ],
+            "displayMode": 1
+          }
+        ],
+        "explicitMods": [
+          "21% increased Physical Damage",
+          "Adds 2 to 75 Lightning Damage",
+          "17% increased Attack Speed",
+          "11% reduced Enemy Stun Threshold",
+          "0.26% of Physical Attack Damage Leeched as Mana",
+          "+44 to Accuracy Rating",
+          "Attacks have 20% chance to cause Bleeding",
+          "24% increased Damage with Bleeding"
+        ],
+        "frameType": 2,
+        "extended": {
+          "dps": 234.99,
+          "pdps": 178.62,
+          "edps": 56.37,
+          "mods": {
+            "explicit": [
+              {
+                "name": "of the Boxer",
+                "tier": "S3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1443060084",
+                    "min": 10,
+                    "max": 11
+                  }
+                ]
+              },
+              {
+                "name": "of Bloodletting",
+                "tier": "S3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1923879260",
+                    "min": 20,
+                    "max": 20
+                  },
+                  {
+                    "hash": "explicit.stat_1294118672",
+                    "min": 21,
+                    "max": 30
+                  }
+                ]
+              },
+              {
+                "name": "of Acclaim",
+                "tier": "S4",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_210067635",
+                    "min": 17,
+                    "max": 19
+                  }
+                ]
+              },
+              {
+                "name": "Journeyman's",
+                "tier": "P7",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1509134228",
+                    "min": 20,
+                    "max": 24
+                  },
+                  {
+                    "hash": "explicit.stat_691932474",
+                    "min": 21,
+                    "max": 46
+                  }
+                ]
+              },
+              {
+                "name": "Thirsty",
+                "tier": "P1",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_669069897",
+                    "min": 0.2,
+                    "max": 0.4
+                  }
+                ]
+              },
+              {
+                "name": "Snapping",
+                "tier": "P8",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_3336890334",
+                    "min": 2,
+                    "max": 7
+                  },
+                  {
+                    "hash": "explicit.stat_3336890334",
+                    "min": 74,
+                    "max": 84
+                  }
+                ]
+              }
+            ]
+          },
+          "hashes": {
+            "explicit": [
+              [
+                "explicit.stat_1509134228",
+                [
+                  3
+                ]
+              ],
+              [
+                "explicit.stat_3336890334",
+                [
+                  5
+                ]
+              ],
+              [
+                "explicit.stat_210067635",
+                [
+                  2
+                ]
+              ],
+              [
+                "explicit.stat_1443060084",
+                [
+                  0
+                ]
+              ],
+              [
+                "explicit.stat_669069897",
+                [
+                  4
+                ]
+              ],
+              [
+                "explicit.stat_691932474",
+                [
+                  3
+                ]
+              ],
+              [
+                "explicit.stat_1923879260",
+                [
+                  1
+                ]
+              ],
+              [
+                "explicit.stat_1294118672",
+                [
+                  1
+                ]
+              ]
+            ]
+          },
+          "text": "SXRlbSBDbGFzczogVHdvIEhhbmQgQXhlcw0KUmFyaXR5OiBSYXJlDQpHYWxlIFJvYXINCkFieXNzYWwgQXhlDQotLS0tLS0tLQ0KVHdvIEhhbmRlZCBBeGUNClBoeXNpY2FsIERhbWFnZTogOTgtMTQ2IChhdWdtZW50ZWQpDQpFbGVtZW50YWwgRGFtYWdlOiAyLTc1IChhdWdtZW50ZWQpDQpDcml0aWNhbCBTdHJpa2UgQ2hhbmNlOiA1LjAwJQ0KQXR0YWNrcyBwZXIgU2Vjb25kOiAxLjQ2IChhdWdtZW50ZWQpDQpXZWFwb24gUmFuZ2U6IDEzDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDU1DQpTdHI6IDEyOA0KRGV4OiA2MA0KLS0tLS0tLS0NClNvY2tldHM6IEctUi1SLUItRy1SIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgyDQotLS0tLS0tLQ0KMjElIGluY3JlYXNlZCBQaHlzaWNhbCBEYW1hZ2UNCkFkZHMgMiB0byA3NSBMaWdodG5pbmcgRGFtYWdlDQoxNyUgaW5jcmVhc2VkIEF0dGFjayBTcGVlZA0KMTElIHJlZHVjZWQgRW5lbXkgU3R1biBUaHJlc2hvbGQNCjAuMjYlIG9mIFBoeXNpY2FsIEF0dGFjayBEYW1hZ2UgTGVlY2hlZCBhcyBNYW5hDQorNDQgdG8gQWNjdXJhY3kgUmF0aW5nDQpBdHRhY2tzIGhhdmUgMjAlIGNoYW5jZSB0byBjYXVzZSBCbGVlZGluZw0KMjQlIGluY3JlYXNlZCBEYW1hZ2Ugd2l0aCBCbGVlZGluZw0KLS0tLS0tLS0NCkNvcnJ1cHRlZA0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxNSBjaGFvcw0K"
+        }
+      }
+    },
+    {
+      "id": "acca2337d0b71f406f2c3c18b92ea3b5b4aad272d9713713bbee1c7889e88e1f",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-05-25T16:27:49Z",
+        "stash": {
+          "name": "1",
+          "x": 6,
+          "y": 9
+        },
+        "whisper": "@testprueba Hi, I would like to buy your Skin of the Lords Simple Robe listed for 15 chaos in Ultimatum (stash tab \"1\"; position: left 7, top 10)",
+        "account": {
+          "name": "drrehab",
+          "lastCharacterName": "testprueba",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "en_US"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 15,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 3,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/MyriadGraspGrand.png?v=69f818ab78187e601425e5cbd16dfb5a&w=2&h=3&scale=1",
+        "league": "Ultimatum",
+        "id": "acca2337d0b71f406f2c3c18b92ea3b5b4aad272d9713713bbee1c7889e88e1f",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          }
+        ],
+        "name": "Skin of the Lords",
+        "typeLine": "Simple Robe",
+        "baseType": "Simple Robe",
+        "identified": true,
+        "ilvl": 80,
+        "note": "~price 15 chaos",
+        "corrupted": true,
+        "properties": [
+          {
+            "name": "Quality",
+            "values": [
+              [
+                "+20%",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 6
+          }
+        ],
+        "explicitMods": [
+          "Sockets cannot be modified",
+          "+1 to Level of Socketed Gems",
+          "100% increased Global Defences",
+          "You can only Socket Corrupted Gems in this item",
+          "Ancestral Bond"
+        ],
+        "flavourText": [
+          "The Lords are chosen so carefully.\r",
+          "Only they may grace His flesh."
+        ],
+        "frameType": 3,
+        "extended": {
+          "mods": {
+            "explicit": [
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1389153006",
+                    "min": 100,
+                    "max": 100
+                  }
+                ]
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": null
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_3192592092",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_608438307",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_2843100721",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_2648570028",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "hashes": {
+            "explicit": [
+              [
+                "explicit.stat_3192592092",
+                [
+                  2
+                ]
+              ],
+              [
+                "explicit.stat_2843100721",
+                [
+                  4
+                ]
+              ],
+              [
+                "explicit.stat_1389153006",
+                [
+                  0
+                ]
+              ],
+              [
+                "explicit.stat_608438307",
+                [
+                  3
+                ]
+              ],
+              [
+                "explicit.stat_2648570028",
+                [
+                  5
+                ]
+              ]
+            ]
+          },
+          "text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFVuaXF1ZQ0KU2tpbiBvZiB0aGUgTG9yZHMNClNpbXBsZSBSb2JlDQotLS0tLS0tLQ0KUXVhbGl0eTogKzIwJSAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClNvY2tldHM6IEItUi1HLVItQi1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgwDQotLS0tLS0tLQ0KU29ja2V0cyBjYW5ub3QgYmUgbW9kaWZpZWQNCisxIHRvIExldmVsIG9mIFNvY2tldGVkIEdlbXMNCjEwMCUgaW5jcmVhc2VkIEdsb2JhbCBEZWZlbmNlcw0KWW91IGNhbiBvbmx5IFNvY2tldCBDb3JydXB0ZWQgR2VtcyBpbiB0aGlzIGl0ZW0NCkFuY2VzdHJhbCBCb25kDQotLS0tLS0tLQ0KVGhlIExvcmRzIGFyZSBjaG9zZW4gc28gY2FyZWZ1bGx5Lg0KT25seSB0aGV5IG1heSBncmFjZSBIaXMgZmxlc2guDQotLS0tLS0tLQ0KQ29ycnVwdGVkDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDE1IGNoYW9zDQo="
+        }
+      }
+    },
+    {
+      "id": "214d83c16c89d404acd6e3bea1364617d8ae2368a745666cba861478f8a57e82",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-07-07T22:56:21Z",
+        "stash": {
+          "name": "~b\/o 15 chaos",
+          "x": 10,
+          "y": 8
+        },
+        "whisper": "@Zetsuban_TotemsGoBrrr Hi, I would like to buy your Armageddon Smasher Karui Maul listed for 15 chaos in Ultimatum (stash tab \"~b\/o 15 chaos\"; position: left 11, top 9)",
+        "account": {
+          "name": "Zetsuban",
+          "lastCharacterName": "Zetsuban_TotemsGoBrrr",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "en_US"
+        },
+        "price": {
+          "type": "~b\/o",
+          "amount": 15,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 4,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandMaces\/TwoHandMace2.png?v=c013588ad91c15f8411b58f3d5b93300&w=2&h=4&scale=1",
+        "league": "Ultimatum",
+        "id": "214d83c16c89d404acd6e3bea1364617d8ae2368a745666cba861478f8a57e82",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          }
+        ],
+        "name": "Armageddon Smasher",
+        "typeLine": "Karui Maul",
+        "baseType": "Karui Maul",
+        "identified": true,
+        "ilvl": 81,
+        "properties": [
+          {
+            "name": "Two Handed Mace",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Physical Damage",
+            "values": [
+              [
+                "140-210",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 9
+          },
+          {
+            "name": "Elemental Damage",
+            "values": [
+              [
+                "13-28",
+                5
+              ]
+            ],
+            "displayMode": 0,
+            "type": 10
+          },
+          {
+            "name": "Critical Strike Chance",
+            "values": [
+              [
+                "5.00%",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 12
+          },
+          {
+            "name": "Attacks per Second",
+            "values": [
+              [
+                "1.00",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 13
+          },
+          {
+            "name": "Weapon Range",
+            "values": [
+              [
+                "13",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 14
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [
+              [
+                "57",
+                0
+              ]
+            ],
+            "displayMode": 0
+          },
+          {
+            "name": "Str",
+            "values": [
+              [
+                "182",
+                0
+              ]
+            ],
+            "displayMode": 1
+          }
+        ],
+        "implicitMods": [
+          "45% increased Stun Duration on Enemies"
+        ],
+        "explicitMods": [
+          "25% increased Physical Damage",
+          "Adds 13 to 28 Cold Damage",
+          "19% increased Global Accuracy Rating",
+          "14% reduced Enemy Stun Threshold",
+          "+3 Life gained for each Enemy hit by Attacks",
+          "+48 to Accuracy Rating",
+          "15% increased Light Radius"
+        ],
+        "frameType": 2,
+        "extended": {
+          "dps": 223.5,
+          "pdps": 203,
+          "edps": 20.5,
+          "dps_aug": true,
+          "pdps_aug": true,
+          "mods": {
+            "implicit": [
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "implicit.stat_2517001139",
+                    "min": 45,
+                    "max": 45
+                  }
+                ]
+              }
+            ],
+            "explicit": [
+              {
+                "name": "Chilled",
+                "tier": "P9",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1037193709",
+                    "min": 13,
+                    "max": 16
+                  },
+                  {
+                    "hash": "explicit.stat_1037193709",
+                    "min": 26,
+                    "max": 30
+                  }
+                ]
+              },
+              {
+                "name": "of Radiance",
+                "tier": "S1",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_624954515",
+                    "min": 16,
+                    "max": 20
+                  },
+                  {
+                    "hash": "explicit.stat_1263695895",
+                    "min": 15,
+                    "max": 15
+                  }
+                ]
+              },
+              {
+                "name": "Reaver's",
+                "tier": "P6",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1509134228",
+                    "min": 25,
+                    "max": 34
+                  },
+                  {
+                    "hash": "explicit.stat_691932474",
+                    "min": 47,
+                    "max": 72
+                  }
+                ]
+              },
+              {
+                "name": "of the Gladiator",
+                "tier": "S1",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1443060084",
+                    "min": 14,
+                    "max": 15
+                  }
+                ]
+              },
+              {
+                "name": "of Restoration",
+                "tier": "S3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_821021828",
+                    "min": 3,
+                    "max": 3
+                  }
+                ]
+              }
+            ]
+          },
+          "hashes": {
+            "implicit": [
+              [
+                "implicit.stat_2517001139",
+                [
+                  0
+                ]
+              ]
+            ],
+            "explicit": [
+              [
+                "explicit.stat_1509134228",
+                [
+                  2
+                ]
+              ],
+              [
+                "explicit.stat_1037193709",
+                [
+                  0
+                ]
+              ],
+              [
+                "explicit.stat_624954515",
+                [
+                  1
+                ]
+              ],
+              [
+                "explicit.stat_1443060084",
+                [
+                  3
+                ]
+              ],
+              [
+                "explicit.stat_821021828",
+                [
+                  4
+                ]
+              ],
+              [
+                "explicit.stat_691932474",
+                [
+                  2
+                ]
+              ],
+              [
+                "explicit.stat_1263695895",
+                [
+                  1
+                ]
+              ]
+            ]
+          },
+          "text": "SXRlbSBDbGFzczogVHdvIEhhbmQgTWFjZXMNClJhcml0eTogUmFyZQ0KQXJtYWdlZGRvbiBTbWFzaGVyDQpLYXJ1aSBNYXVsDQotLS0tLS0tLQ0KVHdvIEhhbmRlZCBNYWNlDQpQaHlzaWNhbCBEYW1hZ2U6IDE0MC0yMTAgKGF1Z21lbnRlZCkNCkVsZW1lbnRhbCBEYW1hZ2U6IDEzLTI4IChhdWdtZW50ZWQpDQpDcml0aWNhbCBTdHJpa2UgQ2hhbmNlOiA1LjAwJQ0KQXR0YWNrcyBwZXIgU2Vjb25kOiAxLjAwDQpXZWFwb24gUmFuZ2U6IDEzDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDU3DQpTdHI6IDE4Mg0KLS0tLS0tLS0NClNvY2tldHM6IFItUi1SLVItUi1SIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgxDQotLS0tLS0tLQ0KNDUlIGluY3JlYXNlZCBTdHVuIER1cmF0aW9uIG9uIEVuZW1pZXMgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCjI1JSBpbmNyZWFzZWQgUGh5c2ljYWwgRGFtYWdlDQpBZGRzIDEzIHRvIDI4IENvbGQgRGFtYWdlDQoxOSUgaW5jcmVhc2VkIEdsb2JhbCBBY2N1cmFjeSBSYXRpbmcNCjE0JSByZWR1Y2VkIEVuZW15IFN0dW4gVGhyZXNob2xkDQorMyBMaWZlIGdhaW5lZCBmb3IgZWFjaCBFbmVteSBoaXQgYnkgQXR0YWNrcw0KKzQ4IHRvIEFjY3VyYWN5IFJhdGluZw0KMTUlIGluY3JlYXNlZCBMaWdodCBSYWRpdXMNCg=="
+        }
+      }
+    },
+    {
+      "id": "7065d482d9778775697f6e403a0f5b9e83a5475ff2b416c7a369758dc386d02b",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-07-07T02:16:13Z",
+        "stash": {
+          "name": "$$$",
+          "x": 0,
+          "y": 8
+        },
+        "whisper": "@Du_Tontaum Hi, I would like to buy your Death Crusher Karui Maul listed for 1 divine in Ultimatum (stash tab \"$$$\"; position: left 1, top 9)",
+        "account": {
+          "name": "duartegarcia",
+          "lastCharacterName": "Du_Tontaum",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "en_US"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 1,
+          "currency": "divine"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 4,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandMaces\/TwoHandMace2.png?v=c013588ad91c15f8411b58f3d5b93300&w=2&h=4&scale=1",
+        "league": "Ultimatum",
+        "id": "7065d482d9778775697f6e403a0f5b9e83a5475ff2b416c7a369758dc386d02b",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "I",
+            "sColour": "B"
+          },
+          {
+            "group": 0,
+            "attr": "S",
+            "sColour": "R"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          },
+          {
+            "group": 0,
+            "attr": "D",
+            "sColour": "G"
+          }
+        ],
+        "name": "Death Crusher",
+        "typeLine": "Karui Maul",
+        "baseType": "Karui Maul",
+        "identified": true,
+        "ilvl": 83,
+        "note": "~price 1 divine",
+        "properties": [
+          {
+            "name": "Two Handed Mace",
+            "values": [],
+            "displayMode": 0
+          },
+          {
+            "name": "Physical Damage",
+            "values": [
+              [
+                "193-289",
+                1
+              ]
+            ],
+            "displayMode": 0,
+            "type": 9
+          },
+          {
+            "name": "Critical Strike Chance",
+            "values": [
+              [
+                "5.00%",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 12
+          },
+          {
+            "name": "Attacks per Second",
+            "values": [
+              [
+                "1.00",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 13
+          },
+          {
+            "name": "Weapon Range",
+            "values": [
+              [
+                "13",
+                0
+              ]
+            ],
+            "displayMode": 0,
+            "type": 14
+          }
+        ],
+        "requirements": [
+          {
+            "name": "Level",
+            "values": [
+              [
+                "57",
+                0
+              ]
+            ],
+            "displayMode": 0
+          },
+          {
+            "name": "Str",
+            "values": [
+              [
+                "182",
+                0
+              ]
+            ],
+            "displayMode": 1
+          }
+        ],
+        "implicitMods": [
+          "45% increased Stun Duration on Enemies"
+        ],
+        "explicitMods": [
+          "72% increased Physical Damage",
+          "13% reduced Enemy Stun Threshold",
+          "+36% to Fire Resistance",
+          "Attacks have 20% chance to cause Bleeding",
+          "21% increased Damage with Bleeding"
+        ],
+        "frameType": 2,
+        "extended": {
+          "dps": 269,
+          "pdps": 269,
+          "edps": 0,
+          "dps_aug": true,
+          "pdps_aug": true,
+          "mods": {
+            "implicit": [
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": [
+                  {
+                    "hash": "implicit.stat_2517001139",
+                    "min": 45,
+                    "max": 45
+                  }
+                ]
+              }
+            ],
+            "explicit": [
+              {
+                "name": "Wicked",
+                "tier": "P6",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1509134228",
+                    "min": 65,
+                    "max": 84
+                  }
+                ]
+              },
+              {
+                "name": "of the Volcano",
+                "tier": "S3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_3372524247",
+                    "min": 36,
+                    "max": 41
+                  }
+                ]
+              },
+              {
+                "name": "of the Combatant",
+                "tier": "S2",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1443060084",
+                    "min": 12,
+                    "max": 13
+                  }
+                ]
+              },
+              {
+                "name": "of Bloodletting",
+                "tier": "S3",
+                "magnitudes": [
+                  {
+                    "hash": "explicit.stat_1923879260",
+                    "min": 20,
+                    "max": 20
+                  },
+                  {
+                    "hash": "explicit.stat_1294118672",
+                    "min": 21,
+                    "max": 30
+                  }
+                ]
+              }
+            ]
+          },
+          "hashes": {
+            "implicit": [
+              [
+                "implicit.stat_2517001139",
+                [
+                  0
+                ]
+              ]
+            ],
+            "explicit": [
+              [
+                "explicit.stat_1509134228",
+                [
+                  0
+                ]
+              ],
+              [
+                "explicit.stat_1443060084",
+                [
+                  2
+                ]
+              ],
+              [
+                "explicit.stat_3372524247",
+                [
+                  1
+                ]
+              ],
+              [
+                "explicit.stat_1923879260",
+                [
+                  3
+                ]
+              ],
+              [
+                "explicit.stat_1294118672",
+                [
+                  3
+                ]
+              ]
+            ]
+          },
+          "text": "SXRlbSBDbGFzczogVHdvIEhhbmQgTWFjZXMNClJhcml0eTogUmFyZQ0KRGVhdGggQ3J1c2hlcg0KS2FydWkgTWF1bA0KLS0tLS0tLS0NClR3byBIYW5kZWQgTWFjZQ0KUGh5c2ljYWwgRGFtYWdlOiAxOTMtMjg5IChhdWdtZW50ZWQpDQpDcml0aWNhbCBTdHJpa2UgQ2hhbmNlOiA1LjAwJQ0KQXR0YWNrcyBwZXIgU2Vjb25kOiAxLjAwDQpXZWFwb24gUmFuZ2U6IDEzDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDU3DQpTdHI6IDE4Mg0KLS0tLS0tLS0NClNvY2tldHM6IFItQi1SLUctRy1HIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KNDUlIGluY3JlYXNlZCBTdHVuIER1cmF0aW9uIG9uIEVuZW1pZXMgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCjcyJSBpbmNyZWFzZWQgUGh5c2ljYWwgRGFtYWdlDQoxMyUgcmVkdWNlZCBFbmVteSBTdHVuIFRocmVzaG9sZA0KKzM2JSB0byBGaXJlIFJlc2lzdGFuY2UNCkF0dGFja3MgaGF2ZSAyMCUgY2hhbmNlIHRvIGNhdXNlIEJsZWVkaW5nDQoyMSUgaW5jcmVhc2VkIERhbWFnZSB3aXRoIEJsZWVkaW5nDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDEgZGl2aW5lDQo="
+        }
+      }
+    },
+    {
+      "id": "4af853d46fb70321f160075f8097b25ac6988809102cfa8fe838823a1a35258a",
+      "listing": {
+        "method": "psapi",
+        "indexed": "2021-07-12T23:13:46Z",
+        "stash": {
+          "name": "Influence",
+          "x": 8,
+          "y": 0
+        },
+        "whisper": "@KermitSelfShill Hi, I would like to buy your Tabula Rasa Simple Robe listed for 15 chaos in Ultimatum (stash tab \"Influence\"; position: left 9, top 1)",
+        "account": {
+          "name": "Jak_and_Daxter17",
+          "lastCharacterName": "KermitSelfShill",
+          "online": {
+            "league": "Ultimatum"
+          },
+          "language": "en_US"
+        },
+        "price": {
+          "type": "~price",
+          "amount": 15,
+          "currency": "chaos"
+        }
+      },
+      "item": {
+        "verified": true,
+        "w": 2,
+        "h": 3,
+        "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/TabulaRasa.png?v=c169e1ab88583925693bb3a35cc49b6b&w=2&h=3&scale=1",
+        "league": "Ultimatum",
+        "id": "4af853d46fb70321f160075f8097b25ac6988809102cfa8fe838823a1a35258a",
+        "sockets": [
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          },
+          {
+            "group": 0,
+            "attr": "G",
+            "sColour": "W"
+          }
+        ],
+        "name": "Tabula Rasa",
+        "typeLine": "Simple Robe",
+        "baseType": "Simple Robe",
+        "identified": true,
+        "ilvl": 83,
+        "note": "~price 15 chaos",
+        "corrupted": true,
+        "frameType": 3,
+        "extended": {
+          "mods": {
+            "explicit": [
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": null
+              },
+              {
+                "name": "",
+                "tier": "",
+                "magnitudes": null
+              }
+            ]
+          },
+          "hashes": {},
+          "text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFVuaXF1ZQ0KVGFidWxhIFJhc2ENClNpbXBsZSBSb2JlDQotLS0tLS0tLQ0KU29ja2V0czogVy1XLVctVy1XLVcgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODMNCi0tLS0tLS0tDQpDb3JydXB0ZWQNCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMTUgY2hhb3MNCg=="
+        }
+      }
+    }
+  ]
+}
