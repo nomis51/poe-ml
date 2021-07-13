@@ -27,6 +27,7 @@ def test_model_once(model_file_path, image_file_path, size, classes_file_path, e
 
 
 def test_model(model_file_path, test_folder, classes_file_path):
+    print("Testing model: " + model_file_path + " ...")
     model = tf.keras.models.load_model(model_file_path)
     class_names = []
     images = []
@@ -36,7 +37,8 @@ def test_model(model_file_path, test_folder, classes_file_path):
 
     for class_name in class_names:
         for file_name in os.listdir(test_folder + class_name):
-            images.append([test_folder + class_name + "/" + file_name, class_name])
+            images.append([test_folder + class_name +
+                          "/" + file_name, class_name])
 
     nb_fails = 0
     nb_success = 0
