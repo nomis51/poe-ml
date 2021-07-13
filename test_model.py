@@ -24,8 +24,6 @@ def test_model_once(model_file_path, image_file_path, size, classes_file_path, e
 
     if expected_result != result:
         print("BAD {} : {} -> {}".format(image_file_path, expected_result, result))
-    else:
-        print("GOOD {} : {} -> {}".format(image_file_path, expected_result, result))
 
 
 def test_model(model_file_path, test_folder, classes_file_path):
@@ -40,8 +38,8 @@ def test_model(model_file_path, test_folder, classes_file_path):
         for file_name in os.listdir(test_folder + class_name):
             images.append([test_folder + class_name + "/" + file_name, class_name])
 
-    nbFails = 0
-    nbSuccess = 0
+    nb_fails = 0
+    nb_success = 0
 
     for test in images:
         image = Image.open(test[0]).convert("RGB")
@@ -53,15 +51,14 @@ def test_model(model_file_path, test_folder, classes_file_path):
         result = class_names[np.argmax(score)]
 
         if test[1] != result:
-            nbFails = nbFails + 1
+            nb_fails = nb_fails + 1
             print("BAD {} : {} -> {}".format(test[0], test[1], result))
         else:
-            nbSuccess = nbSuccess + 1
-            print("GOOD {} : {} -> {}".format(test[0], test[1], result))
+            nb_success = nb_success + 1
 
-    success_rate = 100 * (nbSuccess / (nbSuccess + nbFails))
+    success_rate = 100 * (nb_success / (nb_success + nb_fails))
 
-    print("Fails: {}. Success: {}".format(nbFails, nbSuccess))
+    print("Fails: {}. Success: {}".format(nb_fails, nb_success))
     print("Success rate: {}%".format(success_rate))
 
-    return (False, success_rate / 100) if nbFails > 0 else (True, 1)
+    return (False, success_rate / 100) if nb_fails > 0 else (True, 1)
