@@ -1,15 +1,102 @@
-from train import train_until_threshold, fix_crash
+import tensorflow as tf
+import os
+import datetime
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.optimizers import RMSprop
+from tensorflow.keras.layers import Conv2D, MaxPool2D, Flatten, Dense
+from tensorflow.keras.models import Sequential
+from shared import test_model
 
-size = (105, 145)
-batch_size = 16
-training_dir = "./images/item_links/training/"
-test_dir = training_dir
 training_name = "item_links"
-new_training = True
-epochs = 800
-step_epoch = 100
-expected_accuracy = 0.99
+scale = 1 / 255
+image_size = (200, 200)
+batch_size = 4
+epochs = 360
+steps_per_epoch = 3
+load_existing_model = False
 
-fix_crash()
-train_until_threshold(training_name, training_dir, size, test_dir,
-                      expected_accuracy, batch_size, epochs, step_epoch, new_training)
+folder = "./images/{}/".format(training_name)
+training_folder = "{}/training/".format(folder)
+validation_folder = training_folder.replace("training", "validation")
+original_folder = training_folder.replace("training", "original")
+test_folder = validation_folder
+classes = os.listdir(training_folder)
+num_classes = len(classes)
+log_dir = "logs/fit/{}/{}".format(training_name, datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
+output_path = "./training/{}/".format(training_name)
+model_output_path = "{}{}.h5".format(output_path, training_name)
+classes_output_path = "{}{}-classes.txt".format(output_path, training_name)
+
+train = ImageDataGenerator(rescale=scale)
+validation = ImageDataGenerator(rescale=scale)
+
+train_dataset = train.flow_from_directory(
+    training_folder,
+    target_size=image_size,
+    batch_size=batch_size,
+    class_mode="categorical"
+)
+validation_dataset = train.flow_from_directory(
+    validation_folder,
+    target_size=image_size,
+    batch_size=batch_size,
+    class_mode="categorical"
+)
+
+print("Class indices: ", validation_dataset.class_indices)
+
+model = Sequential([
+    Conv2D(16, (3, 3), activation="relu", input_shape=(image_size[0], image_size[1], 3)),
+    MaxPool2D(2, 2),
+
+    Conv2D(32, (3, 3), activation="relu"),
+    MaxPool2D(2, 2),
+
+    Conv2D(64, (3, 3), activation="relu"),
+    MaxPool2D(2, 2),
+
+    Flatten(),
+
+    Dense(512, activation="relu"),
+    Dense(num_classes, activation="softmax")
+])
+
+model.compile(
+    loss="categorical_crossentropy",
+    optimizer=RMSprop(learning_rate=0.001),
+    metrics=["accuracy"]
+)
+
+model.summary()
+
+if load_existing_model and os.path.exists(model_output_path):
+    model.load_weights(model_output_path)
+
+tensorboard_callback = tf.keras.callbacks.TensorBoard(
+    log_dir=log_dir,
+    histogram_freq=1
+)
+
+model.fit(
+    train_dataset,
+    steps_per_epoch=steps_per_epoch,
+    epochs=epochs,
+    callbacks=[
+        tensorboard_callback
+    ],
+    validation_data=validation_dataset
+)
+
+model.save(model_output_path)
+
+f = open(classes_output_path, "w")
+for c in classes:
+    f.write(c + ",")
+f.close()
+
+test_model(
+    model=model,
+    test_folder=test_folder,
+    classes=classes,
+    image_size=image_size
+)

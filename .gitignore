@@ -118,3 +118,6 @@ dmypy.json
 
 # Tensorboard logs
 logs/
+
+# Trained models (too large)
+training/

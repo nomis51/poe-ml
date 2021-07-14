@@ -1,0 +1,42 @@
+Quite fast to train, very good accuracy, good improvements the more epochs are used
+
+keras.layers.experimental.preprocessing.Rescaling(1. / 255, input_shape=(size[0], size[1], 3)),
+keras.layers.Conv2D(32, (3, 3), padding='same', activation="relu", input_shape=(size[0], size[1], 3)),
+keras.layers.MaxPooling2D((2, 2), strides=2),
+keras.layers.Conv2D(64, (3, 3), padding='same', activation="relu"),
+keras.layers.MaxPooling2D((2, 2), strides=2),
+keras.layers.Flatten(),
+keras.layers.Dense(100, activation="relu"),
+keras.layers.Dense(num_classes, activation="softmax")
+
+-----
+Very fast to train, good accuracy for easy problems (e.g. currency_type) but struggle with hard problems (e.g. item_links),
+stop improving really fast
+
+Conv2D(16, (3, 3), activation="relu", input_shape=(46, 46, 3)),
+MaxPool2D(2, 2),
+Conv2D(32, (3, 3), activation="relu"),
+MaxPool2D(2, 2),
+Conv2D(64, (3, 3), activation="relu"),
+MaxPool2D(2, 2),
+Flatten(),
+Dense(512, activation="relu"),
+Dense(num_classes, activation="softmax")
+
+-----
+Very slow to train (needs a lot of epoch to achieve anything), accurate with easy medium problems but require an enormous amount of epochs to solve hard problems,
+not much improvements per epoch, stop improving at some point
+
+keras.layers.experimental.preprocessing.Rescaling(1. / 255, input_shape=(size[0], size[1], 3)),
+keras.layers.Conv2D(8, 3, padding='same', activation='relu'),
+keras.layers.MaxPooling2D(),
+keras.layers.Dropout(0.3),
+keras.layers.Conv2D(16, 3, padding='same', activation='relu'),
+keras.layers.MaxPooling2D(),
+keras.layers.Dropout(0.3),
+keras.layers.Conv2D(32, 3, padding='same', activation='relu'),
+keras.layers.MaxPooling2D(),
+keras.layers.Dropout(0.3),
+keras.layers.Flatten(),
+keras.layers.Dense(128, activation='relu'),
+keras.layers.Dense(num_classes)
