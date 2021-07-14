@@ -3,7 +3,7 @@ import shutil
 
 
 def copy_data():
-    training_names = ["currency_type", "item_links", "stack_size", "item_sockets"]
+    training_names = ["currency_type", "item_links", "stack_size", "item_sockets", "socket_color"]
 
     for training_name in training_names:
         folder = "./images/{}/".format(training_name)
