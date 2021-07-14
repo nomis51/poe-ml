@@ -7,11 +7,11 @@ from tensorflow.keras.layers import Conv2D, MaxPool2D, Flatten, Dense
 from tensorflow.keras.models import Sequential
 from shared import test_model
 
-training_name = "item_links"
+training_name = "socket_color"
 scale = 1 / 255
-image_size = (200, 200)
+image_size = (50, 50)
 batch_size = 4
-epochs = 650
+epochs = 160
 steps_per_epoch = 3
 load_existing_model = False
 
