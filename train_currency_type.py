@@ -11,7 +11,7 @@ training_name = "currency_type"
 scale = 1 / 255
 image_size = (46, 46)
 batch_size = 16
-epochs = 70
+epochs = 90
 steps_per_epoch = 3
 load_existing_model = False
 
