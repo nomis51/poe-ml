@@ -4,6 +4,8 @@ from tensorflow.keras import Sequential
 from tensorflow.keras.optimizers import RMSprop
 import os
 
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+
 training_name = "currency_type"
 image_size = (46, 46)
 
