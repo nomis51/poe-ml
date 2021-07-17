@@ -1,4 +1,5 @@
-Quite fast to train, very good accuracy, good improvements the more epochs are used
+Very fast to train, good accuracy for easy problems (e.g. currency_type) but struggle with hard problems (e.g. item_links),
+stop improving really fast
 
 keras.layers.experimental.preprocessing.Rescaling(1. / 255, input_shape=(size[0], size[1], 3)),
 keras.layers.Conv2D(32, (3, 3), padding='same', activation="relu", input_shape=(size[0], size[1], 3)),
@@ -10,8 +11,7 @@ keras.layers.Dense(100, activation="relu"),
 keras.layers.Dense(num_classes, activation="softmax")
 
 -----
-Very fast to train, good accuracy for easy problems (e.g. currency_type) but struggle with hard problems (e.g. item_links),
-stop improving really fast
+Quite fast to train, very good accuracy, good improvements the more epochs are used
 
 Conv2D(16, (3, 3), activation="relu", input_shape=(46, 46, 3)),
 MaxPool2D(2, 2),
