@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Flatten, Dense
 from tensorflow.keras.models import Sequential
-from shared import test_model
+from shared import test_model, AccuracyThresholdCallback
 
 training_name = "item_sockets"
 scale = 1 / 255
@@ -14,6 +14,7 @@ batch_size = 4
 epochs = 100
 steps_per_epoch = 3
 load_existing_model = False
+accuracy_threshold = 1.0
 
 folder = "./images/{}/".format(training_name)
 training_folder = "{}/training/".format(folder)
@@ -77,12 +78,16 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(
     histogram_freq=1
 )
 
+accuracy_threshold_callback = AccuracyThresholdCallback(
+    threshold=accuracy_threshold)
+
 model.fit(
     train_dataset,
     steps_per_epoch=steps_per_epoch,
     epochs=epochs,
     callbacks=[
-        tensorboard_callback
+        tensorboard_callback,
+        accuracy_threshold_callback
     ],
     validation_data=validation_dataset
 )

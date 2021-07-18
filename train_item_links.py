@@ -5,15 +5,16 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Flatten, Dense
 from tensorflow.keras.models import Sequential
-from shared import test_model
+from shared import test_model, AccuracyThresholdCallback
 
 training_name = "item_links"
 scale = 1 / 255
 image_size = (200, 200)
 batch_size = 4
-epochs = 650
+epochs = 800
 steps_per_epoch = 3
 load_existing_model = False
+accuracy_threshold = 1.0
 
 folder = "./images/{}/".format(training_name)
 training_folder = "{}/training/".format(folder)
@@ -22,7 +23,8 @@ original_folder = training_folder.replace("training", "original")
 test_folder = validation_folder
 classes = os.listdir(training_folder)
 num_classes = len(classes)
-log_dir = "logs/fit/{}/{}".format(training_name, datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
+log_dir = "logs/fit/{}/{}".format(training_name,
+                                  datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
 output_path = "./training/{}/".format(training_name)
 model_output_path = "{}{}.h5".format(output_path, training_name)
 classes_output_path = "{}{}-classes.txt".format(output_path, training_name)
@@ -46,7 +48,8 @@ validation_dataset = train.flow_from_directory(
 print("Class indices: ", validation_dataset.class_indices)
 
 model = Sequential([
-    Conv2D(16, (3, 3), activation="relu", input_shape=(image_size[0], image_size[1], 3)),
+    Conv2D(16, (3, 3), activation="relu", input_shape=(
+        image_size[0], image_size[1], 3)),
     MaxPool2D(2, 2),
 
     Conv2D(32, (3, 3), activation="relu"),
@@ -77,12 +80,15 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(
     histogram_freq=1
 )
 
+accuracy_threshold_callback = AccuracyThresholdCallback(threshold=accuracy_threshold)
+
 model.fit(
     train_dataset,
     steps_per_epoch=steps_per_epoch,
     epochs=epochs,
     callbacks=[
-        tensorboard_callback
+        tensorboard_callback,
+        accuracy_threshold_callback
     ],
     validation_data=validation_dataset
 )

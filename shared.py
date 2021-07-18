@@ -5,7 +5,20 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image as Image
 
 
-def test_model(model, test_folder, image_size, classes, test_empty_image = True):
+class AccuracyThresholdCallback(tf.keras.callbacks.Callback):
+    def __init__(self, threshold):
+        super(AccuracyThresholdCallback, self).__init__()
+        self.threshold = threshold
+
+    def on_epoch_end(self, epoch, logs=None):
+        val_acc = logs["val_accuracy"]
+
+        if val_acc >= self.threshold:
+            print("Reached {} accuracy, stop training.")
+            self.model.stop_training
+
+
+def test_model(model, test_folder, image_size, classes, test_empty_image=True):
     print()
     print("Testing model...")
 
@@ -24,8 +37,10 @@ def test_model(model, test_folder, image_size, classes, test_empty_image = True)
 
             if test_empty_image:
                 test_image = cv2.imread(image_path, cv2.IMREAD_COLOR)
-                test_image = cv2.resize(test_image, image_size, interpolation=cv2.INTER_AREA)
-                match = cv2.matchTemplate(empty_image, test_image, cv2.TM_CCOEFF_NORMED)
+                test_image = cv2.resize(
+                    test_image, image_size, interpolation=cv2.INTER_AREA)
+                match = cv2.matchTemplate(
+                    empty_image, test_image, cv2.TM_CCOEFF_NORMED)
                 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(match)
 
                 if max_val >= EMPTY_IMAGE_THRESHOLD:
@@ -45,11 +60,13 @@ def test_model(model, test_folder, image_size, classes, test_empty_image = True)
 
             if result != label:
                 nb_fail = nb_fail + 1
-                print("Expected -> Prediction : {} -> {}. {}".format(label, result, image_path))
+                print(
+                    "Expected -> Prediction : {} -> {}. {}".format(label, result, image_path))
             else:
                 nb_success = nb_success + 1
 
-    print("{} success. {} fail{}.".format(nb_success, nb_fail, "s" if nb_fail > 1 else ""))
+    print("{} success. {} fail{}.".format(
+        nb_success, nb_fail, "s" if nb_fail > 1 else ""))
     print("Success rate: {}%".format(100 * (nb_success / (nb_success + nb_fail))))
 
 
@@ -61,15 +78,19 @@ def process_images(images_dir, callbacks):
         os.mkdir(training_folder)
 
     for current_class in os.listdir(original_folder):
-        original_current_class_folder = "{}{}".format(original_folder, current_class)
-        training_current_class_folder = "{}{}".format(training_folder, current_class)
+        original_current_class_folder = "{}{}".format(
+            original_folder, current_class)
+        training_current_class_folder = "{}{}".format(
+            training_folder, current_class)
 
         if not os.path.exists(training_current_class_folder):
             os.mkdir(training_current_class_folder)
 
         for file_name in os.listdir(original_current_class_folder):
-            original_path = "{}/{}".format(original_current_class_folder, file_name)
-            training_path = "{}/{}".format(training_current_class_folder, file_name)
+            original_path = "{}/{}".format(
+                original_current_class_folder, file_name)
+            training_path = "{}/{}".format(
+                training_current_class_folder, file_name)
 
             image = cv2.imread(original_path, cv2.IMREAD_UNCHANGED)
 
