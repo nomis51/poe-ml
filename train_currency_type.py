@@ -15,6 +15,8 @@ epochs = 130
 steps_per_epoch = 3
 load_existing_model = False
 accuracy_threshold = 1.0
+loss_threshold = 0.009
+test_empty_image = True
 
 folder = "./images/{}/".format(training_name)
 training_folder = "{}/training/".format(folder)
@@ -23,7 +25,8 @@ original_folder = training_folder.replace("training", "original")
 test_folder = validation_folder
 classes = os.listdir(training_folder)
 num_classes = len(classes)
-log_dir = "logs/fit/{}/{}".format(training_name, datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
+log_dir = "logs/fit/{}/{}".format(training_name,
+                                  datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
 output_path = "./training/{}/".format(training_name)
 model_output_path = "{}{}.h5".format(output_path, training_name)
 classes_output_path = "{}{}-classes.txt".format(output_path, training_name)
@@ -47,7 +50,8 @@ validation_dataset = train.flow_from_directory(
 print("Class indices: ", validation_dataset.class_indices)
 
 model = Sequential([
-    Conv2D(16, (3, 3), activation="relu", input_shape=(image_size[0], image_size[1], 3)),
+    Conv2D(16, (3, 3), activation="relu", input_shape=(
+        image_size[0], image_size[1], 3)),
     MaxPool2D(2, 2),
 
     Conv2D(32, (3, 3), activation="relu"),
@@ -79,7 +83,9 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(
 )
 
 accuracy_threshold_callback = AccuracyThresholdCallback(
-    threshold=accuracy_threshold)
+    accuracy_threshold=accuracy_threshold,
+    loss_threshold=loss_threshold
+)
 
 model.fit(
     train_dataset,
@@ -103,5 +109,6 @@ test_model(
     model=model,
     test_folder=test_folder,
     classes=classes,
-    image_size=image_size
+    image_size=image_size,
+    test_empty_image=test_empty_image
 )

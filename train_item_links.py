@@ -15,6 +15,8 @@ epochs = 800
 steps_per_epoch = 3
 load_existing_model = False
 accuracy_threshold = 1.0
+loss_threshold = 0.009
+test_empty_image = False
 
 folder = "./images/{}/".format(training_name)
 training_folder = "{}/training/".format(folder)
@@ -80,7 +82,10 @@ tensorboard_callback = tf.keras.callbacks.TensorBoard(
     histogram_freq=1
 )
 
-accuracy_threshold_callback = AccuracyThresholdCallback(threshold=accuracy_threshold)
+accuracy_threshold_callback = AccuracyThresholdCallback(
+    accuracy_threshold=accuracy_threshold,
+    loss_threshold=loss_threshold
+)
 
 model.fit(
     train_dataset,
@@ -105,5 +110,5 @@ test_model(
     test_folder=test_folder,
     classes=classes,
     image_size=image_size,
-    test_empty_image=False
+    test_empty_image=test_empty_image
 )

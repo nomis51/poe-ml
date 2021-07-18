@@ -6,15 +6,21 @@ from tensorflow.keras.preprocessing import image as Image
 
 
 class AccuracyThresholdCallback(tf.keras.callbacks.Callback):
-    def __init__(self, threshold):
+    def __init__(self, accuracy_threshold, loss_threshold, nb_min_epochs=0):
         super(AccuracyThresholdCallback, self).__init__()
-        self.threshold = threshold
+        self.accuracy_threshold = accuracy_threshold
+        self.loss_threshold = loss_threshold
+        self.nb_min_epochs = nb_min_epochs
 
     def on_epoch_end(self, epoch, logs=None):
         val_acc = logs["val_accuracy"]
+        acc = logs["accuracy"]
+        val_loss = logs["val_loss"]
+        loss = logs["loss"]
 
-        if val_acc >= self.threshold:
-            print("Reached {} accuracy, stop training.".format(self.threshold))
+        if val_acc >= self.accuracy_threshold and acc >= self.accuracy_threshold and val_loss <= self.loss_threshold and loss <= self.loss_threshold and epoch >= self.nb_min_epochs:
+            print("Reached {} accuracy and {} loss, stop training.".format(
+                self.accuracy_threshold, self.loss_threshold))
             self.model.stop_training = True
 
 
