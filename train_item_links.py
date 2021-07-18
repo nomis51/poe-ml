@@ -98,5 +98,6 @@ test_model(
     model=model,
     test_folder=test_folder,
     classes=classes,
-    image_size=image_size
+    image_size=image_size,
+    test_empty_image=False
 )

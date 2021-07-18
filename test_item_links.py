@@ -45,7 +45,8 @@ if os.path.exists(model_file_path) and os.path.exists(classes_file_path):
         model=model,
         test_folder=test_folder,
         image_size=image_size,
-        classes=classes
+        classes=classes,
+        test_empty_image=False
     )
 else:
     print("No model named {} available".format(training_name))

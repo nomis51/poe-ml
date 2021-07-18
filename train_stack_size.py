@@ -11,7 +11,7 @@ training_name = "stack_size"
 scale = 1 / 255
 image_size = (46, 46)
 batch_size = 16
-epochs = 120
+epochs = 140
 steps_per_epoch = 3
 load_existing_model = False
 
@@ -98,5 +98,5 @@ test_model(
     model=model,
     test_folder=test_folder,
     classes=classes,
-    image_size=image_size
+    image_size=image_size,
 )

@@ -1,13 +1,17 @@
 import os
 import cv2
-from tensorflow.keras.preprocessing import image as Image
 import numpy as np
 import tensorflow as tf
+from tensorflow.keras.preprocessing import image as Image
 
 
-def test_model(model, test_folder, image_size, classes):
+def test_model(model, test_folder, image_size, classes, test_empty_image = True):
     print()
     print("Testing model...")
+
+    EMPTY_IMAGE_THRESHOLD = 0.15
+    empty_file_path = "./images/currency_type/validation/empty/empty_1.png"
+    empty_image = cv2.imread(empty_file_path, cv2.IMREAD_COLOR)
 
     nb_success = 0
     nb_fail = 0
@@ -17,6 +21,18 @@ def test_model(model, test_folder, image_size, classes):
 
         for file_name in os.listdir(current_path):
             image_path = "{}/{}".format(current_path, file_name)
+
+            if test_empty_image:
+                test_image = cv2.imread(image_path, cv2.IMREAD_COLOR)
+                test_image = cv2.resize(test_image, image_size, interpolation=cv2.INTER_AREA)
+                match = cv2.matchTemplate(empty_image, test_image, cv2.TM_CCOEFF_NORMED)
+                min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(match)
+
+                if max_val >= EMPTY_IMAGE_THRESHOLD:
+                    nb_success = nb_success + 1
+                    print("It's an empty image: {}%".format(max_val))
+                    continue
+
             img = Image.load_img(image_path, target_size=image_size)
             x = Image.img_to_array(img)
             x = np.expand_dims(x, axis=0)
@@ -24,7 +40,7 @@ def test_model(model, test_folder, image_size, classes):
 
             predictions = model.predict(images)
             score = tf.nn.softmax(predictions[0])
-            confidence = np.max(score)
+            # confidence = np.max(score)
             result = classes[np.argmax(score)]
 
             if result != label:
