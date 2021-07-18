@@ -14,8 +14,8 @@ class AccuracyThresholdCallback(tf.keras.callbacks.Callback):
         val_acc = logs["val_accuracy"]
 
         if val_acc >= self.threshold:
-            print("Reached {} accuracy, stop training.")
-            self.model.stop_training
+            print("Reached {} accuracy, stop training.".format(self.threshold))
+            self.model.stop_training = True
 
 
 def test_model(model, test_folder, image_size, classes, test_empty_image=True):
