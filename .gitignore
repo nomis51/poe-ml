@@ -122,3 +122,4 @@ logs/
 # Trained models (too large)
 training/
 scripts/fetch_ai_analyses.py
+shared-data/
